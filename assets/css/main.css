@@ -1794,7 +1794,7 @@ input, select, textarea {
 			}
 		
 		.image.topone {
-			height: 2px;
+			height: -2px;
 		}	
 
 /* List */
