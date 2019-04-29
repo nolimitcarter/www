@@ -1792,6 +1792,10 @@ input, select, textarea {
 				margin: 0 auto;
 				width: auto;
 			}
+		
+		.image.topone {
+			height: 200px;
+		}	
 
 /* List */
 
