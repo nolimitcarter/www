@@ -1744,7 +1744,7 @@ input, select, textarea {
 
 /* Image */
 
-	.image.top {
+		.image.top {
 		width: 450px; 
 		height: 300px;
 	}
