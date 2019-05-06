@@ -110,12 +110,6 @@ input, select, textarea {
 		color: #888;
 	}
 
-	h1.title { 
-		color: black;
-		border: 1px solid black;
-	}
-
-
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
 		color: #666;
