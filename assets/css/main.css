@@ -128,6 +128,7 @@ input, select, textarea {
 	h2 {
 		font-size: 2em;
 		letter-spacing: -1px;
+		background-color: url("https://i.imgur.com/mmVZxbz.jpg")
 	}
 
 		h2.alt {
