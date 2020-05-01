@@ -1,3 +1,5 @@
 # Good-To-Gig Website
 
-Netlify, Namecheap, HTML, CSS, and JS.
+* cartert.dev personal website
+* was made using Netlify, Namecheap, HTML, CSS, and JavaScript. 
+
