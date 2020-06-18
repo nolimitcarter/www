@@ -85,6 +85,7 @@ input, select, textarea {
 		color: #888;
 	}
 
+
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
