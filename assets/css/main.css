@@ -125,6 +125,10 @@ input, select, textarea {
 		letter-spacing: -1px;
 	}
 
+  h5 {
+    padding: 50px;
+  }
+
 		h2.alt {
 			color: #888;
 		}
@@ -1728,9 +1732,6 @@ input, select, textarea {
 
 		}
 
-    .link {
-      padding: 50px;
-    }
 /* Sections/Article */
 
 	section, article {
