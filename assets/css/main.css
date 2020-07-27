@@ -1728,6 +1728,9 @@ input, select, textarea {
 
 		}
 
+    .link {
+      padding: 50px;
+    }
 /* Sections/Article */
 
 	section, article {
@@ -1911,6 +1914,7 @@ input, select, textarea {
 	form ::-moz-focus-inner {
 		border: 0;
 	}
+
 
 /* Table */
 
