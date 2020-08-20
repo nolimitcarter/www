@@ -125,6 +125,11 @@ input, select, textarea {
 		letter-spacing: -1px;
 	}
 
+  h5 {
+    padding-bottom: 50px;
+    padding-top: 15px;
+  }
+
 		h2.alt {
 			color: #888;
 		}
@@ -1912,6 +1917,7 @@ input, select, textarea {
 		border: 0;
 	}
 
+
 /* Table */
 
 	table {
@@ -2184,6 +2190,7 @@ input, select, textarea {
 
 			#footer .copyright li {
 				display: inline-block;
+        font-size: 18px;
 				line-height: 1em;
 				border-left: solid 1px rgba(128, 128, 128, 0.35);
 				padding: 0 0 0 0.5em;
