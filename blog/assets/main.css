@@ -157,7 +157,7 @@ P.blocktext {
   width: 8em;
 }
 
-a {
+a:link {
   color: grey;
 }
 
