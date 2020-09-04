@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+
+pandoc --quiet -s 2020/05/README.md -o 2020/05/index.html --template=template.html
+
+pandoc --quiet -s README.md -o index.html --template=template.html

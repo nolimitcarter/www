@@ -1,0 +1,80 @@
+---
+Title:  nolimitcarter | blog
+Subtitle: Month of May, 2020
+---
+
+
+## Fri. 05/29/20 01:26
+
+**Alacritty terminal vs xterm**
+
+Over the weekend I found an amazingest  terminal emulator called Alacritty. As of now, Alacritty is the fastest terminal emulator in existence. It uses the GPU for rendering which enables optimizations that simply aren't possible without it. It is also available on all distros. I watched a video of someone doing a `time tree /` on both Alacritty and xterm and while xterm took about 2 and a half minutes, Alacritty only took 14 seconds!!! So far it seems to have a strong focus on performance and optimization. Things in the Alacritty terminal work so much smoother than xterm and it is actually quite noticeable especially when moving about through vim. One of the important things to note is that even though people are using it as a "daily driver" already, it is still described as only at a "beta level of readiness". All it takes to get started with Alacritty is the alacritty.yml configuration file and it is already preset with defaults that you can change from the start. 
+
+## Thurs. 05/20/20 10:26 
+
+**Making a network analyzer out of a Raspberry Pi and Nagios**
+
+work in progress but project is complete
+
+## Wed. 05/20/20 15:12
+
+**Physics | Different Wave Lengths, Classifications, and Types**
+
+Different types of waves can be classified into *mechanical* waves or *electromagnetic* waves. Mechanical waves can then be further classified into transverse or longitudinal waves but electromagnetic waves and only be transverse waves. Everyone should know the two starting/basic classifications of wave lengths, mechanical and electromagnetic and how you can classify waves into one of those two types from the start by seeing if they can travel through a vacuum or not. Sound waves are an example of mechanical waves because they can only travel through matter and not a vacuum. The same goes with the waves in an ocean. Mechanical waves need a medium(environment/matter) to travel. In sound waves, the air is the medium, in ocean waves the ocean is the medium. An example of an electromagnetic wave is visible light, such as sunlight. An electromagnetic wave can travel through matter and the abscense of matter(a vacuum). An electromagnetic wave is a combination of an oscillating electric field and an oscillating magnetic field. Electric fields occur when objects acquire an electrical charge such as when you pull your socks out of the dryer they might stick together. An electric charge effects the space around it so that another electric charge will experience a force. 
+
+After the initial classification of the type of wave, we can go ever further. We can classify them based on shape or how the direction of oscillation(movement) relates to the direction the wave is traveling. In a *transverse wave*, the oscillation is perpendicular to the direction the wave is traveling. In a *longitudinal wave*, the oscillation is parallel to the direction the wave is traveling. An example of *Transverse waves* are *electromagnetic* waves and even a spring going up and down pointed in front of you. Now let's suppose we move the spring a little differently, we start to move it back and forth, horizontally, still facing in front of us. This is an example of a *longitudinal* wave because it is traveling horizontally and not in a "heartbeat" like way. *Longitudinal* waves have regions of rarefraction which is compressions and expansions in the waves. In a compression region, particles are compressed or stored while another region moves apart or *expand*. As these compressions and expansions move across the spring, energy is transported. The particles of the medium are moving parallel to the direction in which the waves are moving. Sound waves are an example of longitudinal waves because different sound waves compress and expand to make different noises. 
+
+In these examples we have gone over, take note that the spring itself never actually moves. The wave energy makes the coils vibrate and oscillate, but it does not move them from one place to another.  This is true of all waves. Waves transport energy from one place to another, but they do not transport matter from one place to another. This conclusion can be easily observed with water waves. A buoy floating in the ocean remains in the same place even as it bobs up and down as the waves pass by. The waves travel from the ocean to shore but they dont actually carry the buoy with them. The same can be said about a duck floating on the surface of a lake; When a wave passes through the water, the duck will move up and down, but it will return to approximately the same sport after the wave passes opposed to being carried away with the wave and not moving at all. 
+
+*Electromagnetic waves* in depth: Electromagnetic waves form from vibrating particles. When charged particles vibrate, they produce an oscillating electric field. This electric field produces an oscillating magnetic field. The combination of electric and magnetic fields forms the electromagnetic wave. Because these waves are made up of vibrating electric and magnetic fields, they can propagate even when there is no matter to carry them opposed to mechanical waves which can only travel by causing particles in matter to vibrate. As we will see later in this post, the amount of energy an electromagnetic wave has can determine how we use the wave. The electromagnetic spectrum is a term used to describe the whole range of possible wavelengths or frequencies of electromagnetic radiation. It is traditionally divided into two fields according to their decreasing wavelengths. Waves with low amounts of energy and the longest wavelengths will go at the beginning ex: radio waves which have basically the lowest amount of energy and the longest wavelengths compared to gamma rays which are the complete opositte. The electromagnetic spectrum is commonly described by starting in the middle with visible light and then comparing the other parts as either having shorter or longer wavelengths or higher/lower frequencies. When we see a rainbow for example, we are viewing all of the different wavelengths of visible light starting in order from longest (red) to shortest (violet). Sunlight contains all wavelengths of visible light and when it passes through a prism, it seperates the combined wavelengths of light into separate streams, or bands, which appear to us as a "rainbow" of colors. 
+
+## Sun. 05/17/20 23:55 
+
+**Exploiting a vulnerable Linux machine, Enumerating samba for shares, manipulate a version of proftpd and escalaete your privileges with path variable manipulation.** 
+
+Samba is the standard networking file system used by mostly Windows machines but some Linux aswell. Samba is based on the common client/server protocol of server message block (smb). You will using see it port 139 and 445. You can then use nmap to enumerate the shares of smb, `nmap -p 445 --script=smb-enum-shares.nse,smb-enum-users.nse <ip>`. Then, we can use smbclient to connect to the network share, `smbclient //<ip>/anonymous`. Nmap should have also shown port 111 up and running rfcport. This is a server that converts remote procedure call program number into different addresses. When an rpc service is started, it tells rpcbind the address at which it is listening and the rpc program number it's prepared to serve, nmap -p 111 --script=nfs-ls,nfs-statfs,nfs-showmount <ip>. When I ran that against the machine the result came back with the mount of /var. 
+  
+As we have seen so far, sounds waves are longitudinal, mechanical waves. They travel through matter by causing the particles in the matter to vibrate. Because sound waves are longituidnal, they produce compressions and expansions in matter which then will make sound travel - which we have gone over. Consider the sound by a speaker; The speaker vibrates back and fourth when music is playing. When the speaker pushes outward, it presses the air molecules close together, producing an area of high pressure: a *compression*. When the speaker pulls back inward, it pulls the air molecules further apart, producing an area of low pressure: a *rarefraction* or *expansion*. The air molecules vibrate back and forth. When a molecule strikes another molecule in the air, it transmits the energy of the wave by making the second molecule vibrate. As with all mechanical waves, the wave energy causes the air molecules to vibarate around their equilibrium point. They vibrate back and forth, but they do not have any overall motion. The air molecules that are close to the speaker remain close to the speaker. They do not travel away from the speaker. 
+  
+## Fri. 05/15/20 22:05
+
+**Gitlab vs. Github**
+
+Right when I started to use tech I was introduced to `git` as a plural. I never really had a preferance over the two, I actually used Gitlab because that's what my mentor strongly supports because of all the things they're doing with open source. In this extent I do see why he prefers the lab over hub but Rob @ rwxrob I dont want to tag him but um we will go into that a little later. I have used the two since I started and up until about late April of this year I took my stance with hub over lab. First of all, everyone else uses it. Every project is on Github. You just can't say hte same about Gitlab. Sure the UI of GitLab is nice and all but its really the same things as GitHub. I believe Github to be quite more interactive and engaging aswell. It lets you follow people and see work in a new way. I have converted all of my projects over to hub with no problem and just mirror a lot of them on lab because that's just the easier and even Ui cleaner thing to do.  
+  
+## Mon. 05/11/20 13:40 
+
+**Distros**
+
+Back to the distro topic two I have heard great things about are PopOS, Arch and Vanilla Debian. PopOS comes with a lot of really great things for devs. Its hard because I really just love Ubuntu. Another idea would be making a LFS (Linux From Scratch) which would most likely allow me add whatever I want which would most likely include a lot of things from different distros lol. The difference between LFS and Gen2 is LFS is a book and Gen2 is actually a distro which you would have to compile from. Apparenly Vanilla Arch is the nice sweet spot for devs and pentesters and it comes with AUR which is amazing for sharing source code. EndevourOS is good for Arch apparently. Monjaro is kind of some ass, I have heard from multiple people that it will just stop working. One of the major things is to understand the security perspective of the AUR for Arch based Distros. I know this post was all over the place but that's how some are going to be just to take note of a lot of topics I would like to eventually come back to. Apparently Monjaro is going back to to being careful about what they do because they have bricked so many systems. One of the major things to take away from this is that if you're trying top get constant work done and never break your distro don't use something like Arch. It is good to mess around with and have fun with in a VM so that you don't run into probelems and can just make a new one right on top of it.
+
+## Mon. 05/11/20 12:56
+
+**Some topics discussed in Robs stream gone over in my own opninion**
+
+The everlong debate over GNL licenses, distros, should users be able to fix and work on their own hardware/software, and what in the fuck is Apple doing... lol but seriously though, the question was brought up today, 
+
+:::csog  
+Can you find a full distro that has a 100% pure GPL v2 
+GPL v3 is completely different from a v2 license. Legally speaking anyways, I haven't gotten into the details yet but they are different in a lot of ways in the way of if a users changes to the software would have to be given back to the creators. GPL v3 apparenlty, if you use the software in any posssible way, all of it has to be given back. The whole idea of this is to be certain you know what you're using. 
+:::
+
+Onto another topic, I think it is ridiculous that COMPTIA is pushing for the law that prohibits users without one of their $800 certificates from fixing, and possibly making changes to the hardware, and or software. You have to be shitting me... If that isnt the biggest money scheme I've ever heard of. I get that maybe some companys don't like certain people fixing their hardware for cheaper than taking it to i.e an Apple store but thats just how it is today you know. People wont stop the creation of new ways to make a living and it should just be dealt with, big companies are already making enough money and never giving back to anything so why would a user be required to basically pay $800 to be able to make changes to their computer for a certain amount of time ie the license could last for only a couple years. 
+
+Now onto the question of what Apple is doing. It's really hard to tell.. It almost seems as if they are forgetting about the devs that use it and really just focusing on their market to video/photo editing and basically just their UX. This is disapointing in a few aspects to me. I have had a Mac Air for about two years and loved it up until about a month when they switched over their default shell to zsh. That is so discouraging from an OS X dev perspctive. I have completely ditched it at this point. I am in love with my new razer with the nvidia GPU which I got on sale (late 2019 model). I basically just use my Mac to display things ie i just have spotify, git, youtube, and discord up on it all day. I find their UX to be beautiful and easy to use but at this point I am okay with giving it up. Ubuntu 20.01 which is what I am using now is amazing, I am so happy with this Distro and im pretty sure its even on Gnome. It runs so smooth and is not laggy at all. Updates are easy to install and not always happening. Its everything good in a distro. Linux mint on the other hand which is also a very good home env setting is kind of difficult in a way to maintain. It might just be because I didn't use it much but once I made the switch from OS X and decided to go with Ubuntu I love it, Ive been using it since 18.04 and have only had one problem that whole time (loop back log in screen which is common on 19). 
+
+I have also taken note of some new md syntax: 
+You can use a markdown type style like;
+
+```markdown
+this is the style one star for *italics*, two stars for **bold**, three stars for ***both***, backticks for `monospaced`. 
+```
+
+## Sat. 05/09/20 16:34
+
+**Redoing Dotfiles**
+
+This past week I have been working on my Bash and Python scripting by redoing my bashrc and whole config from scratch to learn what all of the syntax mean and to add new, useful commands/ functions. In the end, I ended up grasping bash scripting a lot better and was able to start making my own such as some of the functions in my bashrc and my todo list shell scriot that right now, is a work in progress, but will be pretty cool when complete. The overall objective is to create a shell application/script that will store, add, and get numerous tasks that i would like to add to the list. 
+
+
+
