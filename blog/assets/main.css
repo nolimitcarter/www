@@ -122,6 +122,17 @@ h2.052920 {
   margin: 0 auto;
 } 
 
+#intro2 {
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 1.3rem;
+  text-align: center;
+  padding-top: 90px;
+  font-size: 25px;
+  border: 1;
+  width: 15%;
+  margin: 0 auto;
+} 
+
 #preface {
   border-bottom: 1px solid #aaa;
   padding-bottom: 1.3rem;
