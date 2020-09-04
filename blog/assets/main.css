@@ -157,8 +157,8 @@ P.blocktext {
   width: 8em;
 }
 
-p.link {
-color: black;
+.indexlink {
+  color: white;
 }
 
 footer {
