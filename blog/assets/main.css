@@ -157,6 +157,10 @@ P.blocktext {
   width: 8em;
 }
 
+p.href {
+color: black;
+}
+
 footer {
   text-align: center;
   margin-top: .5rem;
