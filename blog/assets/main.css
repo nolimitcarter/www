@@ -161,6 +161,10 @@ a:link {
   color: grey;
 }
 
+a:hover {
+  color: rgb(103, 174, 221);
+}
+
 footer {
   text-align: center;
   margin-top: .5rem;
