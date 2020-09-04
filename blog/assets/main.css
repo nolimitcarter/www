@@ -45,7 +45,7 @@
 
 .logo_container h1 span { 
   font-weight: 800;
-  color: rgb(254, 242, 255);
+  color: purple;/*rgb(254, 242, 255);*/
 }
 
 .navigation { 
