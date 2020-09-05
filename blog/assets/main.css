@@ -148,7 +148,7 @@ h2.052920 {
   border-bottom: 1px solid #aaa;
   padding-bottom: 1.3rem;
   text-align: center;
-  padding-top: 1.8rem;
+  padding-top: 10px;
   font-size: 25px;
   border: 1;
   width: 15%;
@@ -188,7 +188,7 @@ footer {
   text-align: center;
   margin-top: .5rem;
   padding-top: 25px;
-  padding-bottom: .2rem;
+  padding-bottom: 1rem;
   border-top: 1px solid #aaa;
   font-size: .80rem;
 } 
