@@ -217,6 +217,11 @@ input, select, textarea {
 		clear: both;
 	}
 
+  .subtext {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
 /* Container */
 
 	.container {
