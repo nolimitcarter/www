@@ -183,11 +183,13 @@ a:link {
 .indexlink {
   padding-top: 5px;
   padding-bottom: 35px;
+  color: rgb(103, 174, 221);
 }
 
 .indexlink2 {
   padding-top: 5px;
   padding-bottom: 35px;
+  color: rgb(103, 174, 221);
 }
 
 a:hover {
