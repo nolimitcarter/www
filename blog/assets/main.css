@@ -180,6 +180,11 @@ a:link {
   color: grey;
 }
 
+.indexlink {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .indexlink2 {
   padding-bottom: 35px;
 }
