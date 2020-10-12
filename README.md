@@ -5,3 +5,6 @@ mirrored from https://gitlab.com/cartert.dev/www | cartert.dev | portfolio websi
 
 ## cartert.dev
 
+## License
+
+Licensed under MIT - see the [LICENSE](LICENSE.md) for details.
