@@ -7,4 +7,4 @@ mirrored from https://gitlab.com/cartert.dev/www | cartert.dev | portfolio websi
 
 ## License
 
-Licensed under MIT - see the [LICENSE](LICENSE.md) for details.
+Licensed under GPL - see the [LICENSE](LICENSE.md) for details.
